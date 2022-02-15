@@ -29,7 +29,7 @@ public class Viewer
 
     private void ViewerBody(object? state)
     {
-        LogHelper.Info("Start perioudly checking");
+        LogHelper.Info("Start periodic checking");
         
         if (!WaitAndFindProcess(_process))
             return;
